@@ -1,0 +1,253 @@
+/* body{
+    background-color: #221b2e;
+} */
+
+.card__box{
+    padding: 25px;
+    display: flex;
+    gap: 49px;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 20px #9d9d9d;
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: 10px auto;
+    background-color: transparent;
+    fill-opacity: 50px;
+}
+.card{
+    width: 350px;
+    box-shadow: 2px 2px 20px #a3a3a3;
+}
+.btn.btn-primary{
+    background-color: rgb(32, 167, 149);
+    border-radius: 12px;
+    border: 0;
+}
+.btn.btn-primary:hover{
+    background-color: rgb(0, 141, 122);
+}
+.btn.btn-primary:active{
+    transform: scale(0.95);
+}
+
+.btn.btn-secondary{
+    background-color: rgb(32, 167, 149);
+    border-radius: 12px;
+    border: 0;
+
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    color: black;
+}
+
+.Title{
+    margin: 50px auto;
+    width: 475px;
+    padding: 10px;
+    border-radius: 20px;
+    background-image: url(https://img.freepik.com/premium-vector/rainbow-background-rainbow-gradient-backdrop-vector_88211-4684.jpg);
+    background-position: 490px;
+    background-position-y: 423px;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 5px #000;
+}
+img{
+    border-radius: 5px 5px 0px 0px ;
+}
+.list-group-item:hover{
+    background-color: #e2e2e2;
+}
+.list-group-item:active{
+    background-color: #1a935f;
+}
+.list-group-item{
+    transition: 0.3s;
+}
+
+@media (max-width: 1199px) {
+    .card{
+        max-width: 325px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .card{
+        width: 280px;
+    }
+}
+@media (max-width: 991px) {
+
+    .card{
+
+        width: 550px;
+        margin: 0px auto;
+    }
+
+}   
+@media (max-width: 575px) {
+    .Title{
+        margin: 50px auto;
+        width: 300px;
+        padding: 5px;
+        border-radius: 20px;
+        background-color: rgb(238, 255, 0);
+        color: #f5f5f5;
+        text-shadow: 1px 1px 5px #000;
+        font-size: 24px;
+    }
+}  
+
+/* body{
+    background-image: url(https://img.freepik.com/premium-vector/rainbow-background-rainbow-gradient-backdrop-vector_88211-4684.jpg);
+    background-size: cover;
+    
+} */
+
+#carouselExampleAutoplaying{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#carousel{
+    margin-top: 50px;
+    height: 550px;
+    border-radius: 50px;
+
+}
+
+
+#img__1{
+    object-position: 0px -117px;
+    width: 50px;
+}
+
+
+#img__2{
+    object-position: 0px -70px;
+}
+
+#img__3{
+    object-position: 0px -190px;
+}
+#img__4{
+    object-position: 0px -125px;
+}
+button:nth-child(1){
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+}
+header{
+    background-image: url(https://media.istockphoto.com/id/1248542684/vector/abstract-blurred-colorful-background.jpg?s=612x612&w=0&k=20&c=6aJX8oyUBsSBZFQUCJDP7KZ1y4vrf-wEH_SJsuq7B5I=);
+    background-size: cover;
+}
+
+.bg-body-tertiary{
+    background-image: url(https://media.istockphoto.com/id/1248542684/vector/abstract-blurred-colorful-background.jpg?s=612x612&w=0&k=20&c=6aJX8oyUBsSBZFQUCJDP7KZ1y4vrf-wEH_SJsuq7B5I=);
+    background-size: cover;
+}
+
+btn .btn-outline-success{
+    background-color: blue;
+}
+
+#carousel-inner{
+    width: 250px;
+    margin-left: -75px;
+    height: 500px;
+}
+
+#carousel-indicators{
+    transform: rotate(90deg);
+    display: flex;
+    position: relative;
+    top: 250px;
+    left: 251px;
+    gap: 75px;
+
+
+}
+
+.Header__title{
+    margin-top: 100px;
+    color: #fff;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 700px;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Lilita One', cursive;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+
+header{
+    height: 750px;
+    overflow: hidden;
+}
+
+
+.btn.btn-outline-success{
+    border: 3px solid #198754;
+    color: #fff;
+}
+
+.btn.btn-primary.me-md-2{
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    border: 0;
+    background-color: red;
+    transition: 0.5s;
+    font-family: 'Lilita One', cursive;
+}
+.btn.btn-primary.me-md-2:hover{
+    animation: btn-animation 1s infinite alternate;
+
+}
+
+
+@keyframes btn-animation {
+    0%{
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+    }
+    25%{
+        background: rgb(131,58,180);    
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 20%, rgba(252,176,69,1) 100%);    
+    }
+    50%{
+        background: rgb(131,58,180);    
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);    
+    }
+    75%{
+        background: rgb(131,58,180);    
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 75%, rgba(252,176,69,1) 100%);    
+    }
+    100%{
+        background: rgb(131,58,180);    
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%);    
+    }
+}
+
+.carousel-inner{
+    margin-bottom: 50px;
+}
+
+.shop-sprog{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.form-select{
+    background-color: #1a935f;
+}
+
+.material-symbols-outlined{
+    color: white;
+    background-color: #198754;
+    border-radius: 10px;
+}
